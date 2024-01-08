@@ -1,0 +1,780 @@
+html {
+    width: auto;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(139, 69, 19);
+    /*border: 1px solid black;*/
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#nameCoffe {
+    width: 100%;
+    height: inherit;
+    font-size: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding-left: 10%;
+    /*border: 1px solid blue;*/
+}
+
+.carrinho {
+    cursor: pointer;
+    margin-right: 100px;
+    /*border: 1px solid blue;*/
+}
+
+.menu{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 1px;
+}
+
+.itemmenu{
+    display: flex;
+    cursor: pointer;
+    border-radius: 2px;
+    transition-duration: 0.5s;
+    justify-content: center;
+    background-color: #e9d8a9;
+}
+
+.menu .itemmenu {
+    width: auto;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #583704;
+    text-decoration: none;
+}
+
+.itemmenu:hover{
+    color: #e9d8a9;
+    background-color: #583704;
+}
+
+.pai{
+    position: relative;
+}
+
+.filho{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    /*border: 1px solid blue;*/
+}
+
+.pai:hover .filho{
+    display: block;
+}
+
+.filho ul{
+    padding-left: 0;
+    margin-top: 49px;
+    /*border: 1px solid black;*/
+}
+
+.filho ul li{
+    width: 6vw;
+    height: 15vh;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    list-style-type: none;
+    background-color: white;
+    /*border: 1px solid blue;*/
+    background-color: #e9d8a9;
+}
+
+.filho ul li a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #583704;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.filho ul li a:hover{
+    color: #e9d8a9;
+    background-color: #583704;
+}
+
+/* Sub-menu 1*/
+
+.pai-1{
+
+    position: relative;
+}
+
+.filho-1{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    /*border: 1px solid blue;*/
+}
+
+.pai-1:hover .filho-1{
+    display: block;
+}
+
+.filho-1 ul{
+    padding-left: 0;
+    margin-top: 49px;
+    /*border: 1px solid black;*/
+}
+
+.filho-1 ul li{
+    width: 10vw;
+    height: 30vh;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    list-style-type: none;
+    background-color: white;
+    /*border: 1px solid blue;*/
+    background-color: #e9d8a9;
+}
+
+.filho-1 ul li a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #583704;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.filho-1 ul li a:hover{
+    color: #e9d8a9;
+    background-color: #583704;
+}
+
+/* Sub-menu 2 */
+
+.pai-2{
+
+    position: relative;
+}
+
+.filho-2{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    /*border: 1px solid blue;*/
+}
+
+.pai-2:hover .filho-2{
+    display: block;
+}
+
+.filho-2 ul{
+    padding-left: 0;
+    margin-top: 49px;
+    /*border: 1px solid black;*/
+}
+
+.filho-2 ul li{
+    width: 10vw;
+    height: 42vh;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    list-style-type: none;
+    background-color: white;
+    /*border: 1px solid blue;*/
+    background-color: #e9d8a9;
+}
+
+.filho-2 ul li a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #583704;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.filho-2 ul li a:hover{
+    color: #e9d8a9;
+    background-color: #583704;
+}
+
+/* Sub-menu 3 */
+
+.pai-3{
+
+    position: relative;
+}
+
+.filho-3{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+    position: absolute;
+    /*border: 1px solid blue;*/
+}
+
+.pai-3:hover .filho-3{
+    display: block;
+}
+
+.filho-3 ul{
+    padding-left: 0;
+    margin-top: 49px;
+    /*border: 1px solid black;*/
+}
+
+.filho-3 ul li{
+    width: 10vw;
+    height: 10vh;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 5px;
+    list-style-type: none;
+    background-color: white;
+    /*border: 1px solid blue;*/
+    background-color: #e9d8a9;
+}
+
+.filho-3 ul li a{
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: #583704;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.filho-3 ul li a:hover{
+    color: #e9d8a9;
+    background-color: #583704;
+}
+
+section {
+    width: 100%;
+    height: 500vh;
+    position: absolute;
+    background-color: rgb(222, 184, 135);
+    /*border: 1px solid black;*/
+}
+
+section nav {
+    width: 30%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 37%;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    /*border: 1px solid black;*/
+}
+
+section nav i{
+    cursor: pointer;
+}
+
+section nav a{
+    color: black;
+    margin-left: 75px;
+    font-size: 25px;
+    animation-name: colors;
+    animation-duration: 4s;
+    animation-delay: 0.3s;
+    text-decoration: none;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colors {
+    0% {color: black;}
+    25% {color: #e9d8a9;}
+    50% {color: black;}
+    75% {color: #e9d8a9;}
+    100% {color: black;}
+}
+
+article {
+    width: 80%;
+    height: 70vh;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+}
+
+article img{
+    width: 100%;
+    background-size: 100%;
+}
+
+.pontgrid{
+    left: 47%;
+    bottom: 5%;
+    z-index: 1;
+    position: relative;
+    display: grid;
+    grid-template-columns: 3% 3% 3%;
+}
+
+.ponto1{
+    width: 30%;
+    cursor: pointer;
+    /*border: 1px solid blue;*/
+}
+
+.ponto2{
+    width: 30%;
+    cursor: pointer;
+    /*border: 1px solid blue;*/
+}
+
+.ponto3{
+    width: 30%;
+    cursor: pointer;
+    /*border: 1px solid blue;*/
+}
+
+.ponto1:hover{
+    color: #ffffff;
+}
+
+.ponto2:hover{
+    color: #ffffff;
+}
+
+.ponto3:hover{
+    color: #ffffff;
+}
+
+.comidas{
+    width: 100%;
+    height: 110vh;
+    margin-top: 10%;
+    /*border: 1px solid rgb(255, 0, 43);*/
+}
+
+.contsecgrid0{
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+.quadro0{
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.733);
+    line-height: 150%;
+    /*border: 1px solid black;*/
+}
+
+.subquadro0{
+    padding: 20px;
+    box-shadow: 0px 0px 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgba(199, 111, 48, 0.37);
+    /*border: 1px solid black;*/
+}
+
+.subquadro0:hover{
+    transform: scale(1.05,1.05);
+    transition: 300ms linear;
+}
+
+.imgquadro0 img{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.tituloquadro0{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.bebidas{
+    width: 100%;
+    height: 110vh;
+    margin-top: 10%;
+    /*border: 1px solid rgb(255, 0, 43);*/
+}
+
+.contsecgrid1{
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 25% 25% 25% 25%;
+
+}
+
+#novidades{
+    width: 90%;
+    height: 60vh;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px;
+    background-color: rgba(255, 255, 255, 0.733);
+    /*border: 1px solid black;*/
+}
+
+#titlesec{
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #583704;
+}
+
+#titlesec1{
+    width: auto;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    font-size: 50px;
+    background-color: #583704;
+}
+
+.contsecgrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 100px;
+    margin-left: 20%;
+}
+
+.quadro{
+    margin-top: 50px;
+    padding: 20px;
+    line-height: 150%;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(199, 111, 48, 0.37);
+    /*border: 1px solid black;*/
+}
+
+.quadro:hover{
+    transform: scale(1.05,1.05);
+    transition: 300ms linear;
+}
+
+.imgquadro img{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.tituloquadro{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    /*border: 1px solid black;*/
+}
+
+.detalhes a{
+    /*border: 1px solid blue;*/
+    text-decoration: none;
+    color: rgb(173, 98, 0);
+    transition-duration: 0.3s;
+}
+
+.botao{
+    width: 25%;
+    padding: 5px;
+    float: right;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.botao::before{
+    content: '';
+    position: absolute;
+    background: #58360475;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px;
+    transition: all .9s ease;
+}
+
+.botao:hover{
+    color: #e9d8a9;
+}
+
+.botao:hover::before{  
+    width: 100%;
+    transition: 500ms;
+    background-color: #724809bb;
+}
+
+
+.detalhes{
+    padding-top: 10px;
+}
+
+.detalhes a:hover{
+    color: #ffffff;
+}
+
+footer {
+    color: #fff;
+	padding: 8rem;
+	margin-top: 30%;
+	text-align: center;
+    position: relative;
+	background-color: #583704;
+    /*border: 1px solid blue;*/
+
+}
+
+footer #Copyright{
+    width: auto;
+    display: flex;
+    top: 85%;
+    left: 38%;
+    font-size: 20px;
+    justify-content: center;
+    position: absolute;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.footergrid{
+    width: 100%;
+    height: 30vh;
+    margin-top: -5%;
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    /*border: 1px solid green;*/
+}
+
+.developer ul{
+    width: 100%;
+    height: 95%;
+}
+
+.developer ul li{
+    padding: 5px;
+}
+
+.contatos ul{
+    width: 100%;
+    height: 95%;
+}
+
+.contatos ul li{
+    padding: 5px;
+}
+
+.outros ul{
+    width: 100%;
+    height: 95%;
+}
+
+.outros ul li{
+    padding: 5px;
+}
+
+@media (max-width: 768px){
+    html{
+        width: auto;
+        height: 500vh;
+    }
+
+    section{
+        height: 700vh;
+    }
+
+    #nameCoffe{
+        font-size: 50px;
+        margin-right: 50px;
+    }
+
+    .menu{
+        width: auto;
+        display: block;
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+    .menu .itemmenu{
+        width: 95%;
+        padding: 5px;
+    }
+
+    .filho ul li{
+        display: block;
+        width: auto;
+    }
+
+    .filho-1 ul li{
+        display: block;
+        width: auto;
+    }
+
+    .filho-2 ul li{
+        display: block;
+        width: auto;
+    }
+    
+    .filho-3 ul li{
+        display: block;
+        width: auto;
+    }
+
+    .carrinho{
+        margin-left: 365px;
+        position: absolute;
+    }
+
+    .carrinho i{
+        font-size: 25px;
+    }
+
+    
+    nav i{
+        font-size: x-small;
+    }
+    
+    nav .fa-brands{
+        font-size: 20px;
+    }
+
+    article{
+        display: none;
+    }
+
+    .quadro0{
+        width: auto;
+    }
+
+    .contsecgrid0{
+        display: block;
+    }
+
+    .subquadro0{
+        border: 1px solid black;
+    }
+
+    #novidades{
+        margin-top: 250vh;
+        margin-right: 200px;
+        height: 130vh;
+        border: 1px solid black;
+    }
+
+    .contsecgrid{
+        display: block;
+    }
+
+    .quadro{
+        margin-right: 80px;
+        width: auto;
+    }
+
+    footer{
+        display: flex;
+        justify-content: end;
+        height: 220px;
+    }
+
+    .footergrid{
+        width: 200px;
+    }
+
+    .developer ul li{
+        width: 100%;
+        font-size: 10px;
+        margin-left: -90px;
+    }
+
+    .contatos ul li{
+        margin-left: -45px;
+        font-size: 10px;
+    }
+
+    .outros ul li{
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+
+    .developer ul{
+        left: 0;
+        width: 100px;
+    }
+
+    .contatos ul{
+        width: 100px;
+    }
+
+    .outros ul{
+        width: 100px;
+    }
+
+    footer #Copyright {
+        width: 50%;
+        margin-left: -50px;
+        font-size: 10px;
+    }
+}
